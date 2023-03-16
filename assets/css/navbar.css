@@ -1,0 +1,74 @@
+body {
+  overflow-x: hidden;
+}
+
+
+.navLogo {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    color: var(--bs-primary-color);
+}
+
+:root {
+    --primary-color: #f2f3ea;
+    --secondary-color: #2C5C59;
+    --third-color: #98851E;
+}
+
+#coin i:before {
+  position: absolute;
+  top: 25%;
+}
+
+
+.navTop {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+  }
+
+.navBottom {
+  background-color: var(--secondary-color);
+}
+
+  
+  #points {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 0;
+  }
+
+  .points {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .elementPoint {
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    color: var(--primary-color);
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+    margin-top: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .element:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+  }
+
+
+   #coin {
+    width: 30px;
+    height: 30px;
+  } 
